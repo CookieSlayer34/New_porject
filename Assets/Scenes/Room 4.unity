@@ -683,7 +683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: EYE_OF_DOOM
-  sceneToLoad: 0
+  sceneToLoad: Scence 1
 --- !u!4 &142269778
 Transform:
   m_ObjectHideFlags: 0

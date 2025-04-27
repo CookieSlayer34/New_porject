@@ -5643,7 +5643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: JIMR
-  sceneToLoad: 3
+  sceneToLoad: Room 2
 --- !u!4 &817826172
 Transform:
   m_ObjectHideFlags: 0

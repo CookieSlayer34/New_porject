@@ -4550,7 +4550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: Grumpy_Cat
-  sceneToLoad: 5
+  sceneToLoad: Room 4
 --- !u!4 &900532010
 Transform:
   m_ObjectHideFlags: 0
