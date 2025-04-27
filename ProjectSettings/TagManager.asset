@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Eye_Of_Doom
+  - JIMR
+  - EKIN
+  - Grumpy_Cat
   layers:
   - Default
   - TransparentFX

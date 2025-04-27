@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -919,7 +919,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4283139087028179250, guid: 7bd578c420aa5794eb76ac0c1fb155ef, type: 3}
       propertyPath: m_Name
-      value: Grumpy_Cat (3)
+      value: Grumpy_Cat
       objectReference: {fileID: 0}
     - target: {fileID: 4795126583117148772, guid: 7bd578c420aa5794eb76ac0c1fb155ef, type: 3}
       propertyPath: m_LocalScale.x
@@ -4520,6 +4520,52 @@ Transform:
   - {fileID: 358432551}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -29.368, z: 0}
+--- !u!1 &900532008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900532010}
+  - component: {fileID: 900532009}
+  m_Layer: 0
+  m_Name: TagTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &900532009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900532008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48bf0d7ed6ce443d09f773d5cf175b69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: Grumpy_Cat
+  sceneToLoad: 5
+--- !u!4 &900532010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900532008}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.011887, y: 10.085001, z: 34.288784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &954158275
 GameObject:
   m_ObjectHideFlags: 0
@@ -9654,7 +9700,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4283139087028179250, guid: 7bd578c420aa5794eb76ac0c1fb155ef, type: 3}
       propertyPath: m_Name
-      value: Grumpy_Cat (2)
+      value: Grumpy_Cat
       objectReference: {fileID: 0}
     - target: {fileID: 4795126583117148772, guid: 7bd578c420aa5794eb76ac0c1fb155ef, type: 3}
       propertyPath: m_LocalScale.x
@@ -10177,7 +10223,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4283139087028179250, guid: 7bd578c420aa5794eb76ac0c1fb155ef, type: 3}
       propertyPath: m_Name
-      value: Grumpy_Cat (4)
+      value: Grumpy_Cat
       objectReference: {fileID: 0}
     - target: {fileID: 4795126583117148772, guid: 7bd578c420aa5794eb76ac0c1fb155ef, type: 3}
       propertyPath: m_LocalScale.x
@@ -11113,6 +11159,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5747203294034551292, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
+      propertyPath: targetTag
+      value: Grumpy_Cat
+      objectReference: {fileID: 0}
     - target: {fileID: 527594773030300285, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_Intensity
       value: 5
@@ -11139,7 +11189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7089396416495483513, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_Name
-      value: FLahsy_light_handel
+      value: Flash_light
       objectReference: {fileID: 0}
     - target: {fileID: 7357104101725685951, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11926,7 +11976,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4283139087028179250, guid: 7bd578c420aa5794eb76ac0c1fb155ef, type: 3}
       propertyPath: m_Name
-      value: Grumpy_Cat (1)
+      value: Grumpy_Cat
       objectReference: {fileID: 0}
     - target: {fileID: 4795126583117148772, guid: 7bd578c420aa5794eb76ac0c1fb155ef, type: 3}
       propertyPath: m_LocalScale.x
@@ -12012,3 +12062,4 @@ SceneRoots:
   - {fileID: 1772139704}
   - {fileID: 434514352}
   - {fileID: 1940932418}
+  - {fileID: 900532010}

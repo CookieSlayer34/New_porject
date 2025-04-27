@@ -315,13 +315,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7357104101725685951}
+  - component: {fileID: -5747203294034551292}
   - component: {fileID: 1745756530924383516}
   - component: {fileID: 7591840108218886142}
   - component: {fileID: 2333654315725471521}
   - component: {fileID: 5846385496210446767}
   - component: {fileID: 1710137017670939631}
   m_Layer: 0
-  m_Name: FLahsy_light_handel
+  m_Name: Flash_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -345,6 +346,19 @@ Transform:
   - {fileID: 3014964632854650956}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -5.098, y: -0.256, z: -162.28}
+--- !u!114 &-5747203294034551292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7089396416495483513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b643ca673a044487953b987b3b90c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: Destroyer
 --- !u!33 &1745756530924383516
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -653,53 +653,99 @@ Transform:
   - {fileID: 1661803031}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &142269776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 142269778}
+  - component: {fileID: 142269777}
+  m_Layer: 0
+  m_Name: Tagtarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &142269777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142269776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48bf0d7ed6ce443d09f773d5cf175b69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: EYE_OF_DOOM
+  sceneToLoad: 0
+--- !u!4 &142269778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142269776}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.011887, y: 10.085001, z: 34.288784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &180510164
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 315026821}
     m_Modifications:
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.9
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.24
+      value: 0.96287906
       objectReference: {fileID: 0}
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.43
+      value: -0.21671991
       objectReference: {fileID: 0}
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.68
+      value: 0.146592
       objectReference: {fileID: 0}
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.697958
+      value: 0.80321836
       objectReference: {fileID: 0}
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.55406827
+      value: -0.51784533
       objectReference: {fileID: 0}
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.4322621
+      value: -0.20258534
       objectReference: {fileID: 0}
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.13788626
+      value: 0.2136249
       objectReference: {fileID: 0}
     - target: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -715,7 +761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5855538464417887714, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_Name
-      value: EYE OF DOOM (3)
+      value: EYE OF DOOM
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1992,6 +2038,7 @@ Transform:
   - {fileID: 664280305}
   - {fileID: 2054029309}
   - {fileID: 1154431120}
+  - {fileID: 1409048183}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -29.368, z: 8.686}
 --- !u!1 &335936911
@@ -2518,7 +2565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5855538464417887714, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_Name
-      value: EYE OF DOOM (1)
+      value: Eye_Of_Doom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2587,7 +2634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5855538464417887714, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_Name
-      value: EYE OF DOOM (2)
+      value: Eye_Of_Doom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2600,8 +2647,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1339314356}
     m_Modifications:
+    - target: {fileID: -5747203294034551292, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
+      propertyPath: targetTag
+      value: EYE OF DOOM
+      objectReference: {fileID: 0}
     - target: {fileID: 527594773030300285, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_Intensity
       value: 5
@@ -2628,19 +2679,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7089396416495483513, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_Name
-      value: FLahsy_light_handel
+      value: Flash_light
       objectReference: {fileID: 0}
     - target: {fileID: 7357104101725685951, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.78717
+      value: 5.260092
       objectReference: {fileID: 0}
     - target: {fileID: 7357104101725685951, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.383838
+      value: 7.6570153
       objectReference: {fileID: 0}
     - target: {fileID: 7357104101725685951, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.243016
+      value: -4.5302477
       objectReference: {fileID: 0}
     - target: {fileID: 7357104101725685951, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3334,6 +3385,11 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_ButtonPressPoint: 0.5
+--- !u!4 &478297374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7357104101725685951, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
+  m_PrefabInstance: {fileID: 455039063}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &500477117
 GameObject:
   m_ObjectHideFlags: 0
@@ -5854,7 +5910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5855538464417887714, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_Name
-      value: EYE OF DOOM (4)
+      value: Eye_Of_Doom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7989,6 +8045,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298063422}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1339314355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339314356}
+  m_Layer: 0
+  m_Name: FlashLightTag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1339314356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339314355}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.047262, y: 5.7268224, z: -8.712769}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 478297374}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1359536281
 GameObject:
   m_ObjectHideFlags: 0
@@ -8342,6 +8430,11 @@ Transform:
   - {fileID: 1062688720}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1409048183 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4253619295529170859, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
+  m_PrefabInstance: {fileID: 180510164}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1444185693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8404,7 +8497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5855538464417887714, guid: 89d3c6d7ef04d0a4c8fc1f61ffc9799d, type: 3}
       propertyPath: m_Name
-      value: EYE OF DOOM
+      value: Eye_Of_Doom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11994,9 +12087,9 @@ SceneRoots:
   - {fileID: 1389485323}
   - {fileID: 372642489}
   - {fileID: 250869320}
-  - {fileID: 455039063}
   - {fileID: 1444185693}
   - {fileID: 435632532}
   - {fileID: 453857847}
-  - {fileID: 180510164}
   - {fileID: 962403327}
+  - {fileID: 142269778}
+  - {fileID: 1339314356}

@@ -2769,7 +2769,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2574558877968491999, guid: 8666a1925645052468fd25006b6848e4, type: 3}
       propertyPath: m_Name
-      value: JIMR (2)
+      value: JIMR
       objectReference: {fileID: 0}
     - target: {fileID: 6707951398010496255, guid: 8666a1925645052468fd25006b6848e4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4946,7 +4946,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2574558877968491999, guid: 8666a1925645052468fd25006b6848e4, type: 3}
       propertyPath: m_Name
-      value: JIMR (1)
+      value: JIMR
       objectReference: {fileID: 0}
     - target: {fileID: 6707951398010496255, guid: 8666a1925645052468fd25006b6848e4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5415,7 +5415,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2574558877968491999, guid: 8666a1925645052468fd25006b6848e4, type: 3}
       propertyPath: m_Name
-      value: JIMR (3)
+      value: JIMR
       objectReference: {fileID: 0}
     - target: {fileID: 6707951398010496255, guid: 8666a1925645052468fd25006b6848e4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5613,6 +5613,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808778470}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &817826170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 817826172}
+  - component: {fileID: 817826171}
+  m_Layer: 0
+  m_Name: tagTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &817826171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817826170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48bf0d7ed6ce443d09f773d5cf175b69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: JIMR
+  sceneToLoad: 3
+--- !u!4 &817826172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817826170}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.011887, y: 10.085001, z: 34.288784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &837699958
 GameObject:
   m_ObjectHideFlags: 0
@@ -6179,7 +6225,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2574558877968491999, guid: 8666a1925645052468fd25006b6848e4, type: 3}
       propertyPath: m_Name
-      value: JIMR (4)
+      value: JIMR
       objectReference: {fileID: 0}
     - target: {fileID: 6707951398010496255, guid: 8666a1925645052468fd25006b6848e4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6731,6 +6777,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5747203294034551292, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
+      propertyPath: targetTag
+      value: JIMR
+      objectReference: {fileID: 0}
     - target: {fileID: 527594773030300285, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_Intensity
       value: 5
@@ -6757,7 +6807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7089396416495483513, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_Name
-      value: FLahsy_light_handel
+      value: Flash_light
       objectReference: {fileID: 0}
     - target: {fileID: 7357104101725685951, guid: 8f03bf38b9bba45dfac03444de3456d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11952,3 +12002,4 @@ SceneRoots:
   - {fileID: 347739049}
   - {fileID: 788974780}
   - {fileID: 1188043180}
+  - {fileID: 817826172}
